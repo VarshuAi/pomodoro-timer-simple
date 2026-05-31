@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Pomodoro Timer — Glassmorphism Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glass-bg"></div>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo-row">
+                <span class="logo-emoji">⏱</span>
+                <div class="title-col">
+                    <h1>Quantum Pomodoro Timer</h1>
+                    <p class="tagline">Beautiful radial countdown focus clock.</p>
+                </div>
+            </div>
+            <div class="badge">productivity</div>
+        </header>
+
+        <main class="workspace-card">
+            
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <div style="font-size: 48px; font-weight: bold; margin-bottom: 16px;" id="pomo-display">25:00</div>
+                <div style="display: flex; gap: 12px;">
+                    <button class="btn" onclick="startPomo()">Start</button>
+                    <button class="btn btn-secondary" onclick="pausePomo()">Pause</button>
+                </div>
+            </div>
+        
+        </main>
+        
+        <footer class="app-footer">
+            <p>Created as a premium portfolio piece by <a href="https://github.com/VARSHAN69" target="_blank">@VARSHAN69</a></p>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
