@@ -38,7 +38,7 @@ version: 1.0
 type: Repository
 author: VarshuAi
 description: >
-  Beautiful radial countdown focus clock.
+  name: pomodoro-timer-simple version: 1.0 type: Repository author: VarshuAi description: >   Beautiful radial countdown focus clock. primary_tech: CSS
 primary_tech: CSS
 ```
 
